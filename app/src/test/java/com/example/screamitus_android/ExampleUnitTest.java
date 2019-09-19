@@ -16,8 +16,8 @@ public class ExampleUnitTest {
     {
 
         Infection n=new Infection();
-        int Expected=5;
+        int Expected=1;
         int Actual=n.calculateTotalInfected(1);
-        assertEquals(5, Actual);
+        assertEquals(1, Actual);
     }
 }
