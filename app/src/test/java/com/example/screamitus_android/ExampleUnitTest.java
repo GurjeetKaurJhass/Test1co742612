@@ -19,5 +19,20 @@ public class ExampleUnitTest {
         int Expected=1;
         int Actual=n.calculateTotalInfected(1);
         assertEquals(1, Actual);
+
     }
+    @Test
+    public void R2()
+
+    {
+
+        Infection n=new Infection();
+
+        int Expected1=10;
+        int Actual1=n.calculateInstructors(2);
+        assertEquals(10, Actual1);
+
+    }
+
+
 }
