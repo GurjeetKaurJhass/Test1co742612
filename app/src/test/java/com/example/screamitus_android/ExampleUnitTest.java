@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect()
+    public void R1()
 
     {
 
@@ -25,7 +25,6 @@ public class ExampleUnitTest {
     public void R2()
 
     {
-
         Infection n=new Infection();
 
         int Expected1=10;
