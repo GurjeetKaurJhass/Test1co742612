@@ -32,6 +32,20 @@ public class ExampleUnitTest {
         assertEquals(10, Actual1);
 
     }
+@Test
+    public void R3()
+
+    {
+        Infection n=new Infection();
+        int Expected=64;
+        int Actual2=n.calculateInstructors(7);
+        assertEquals(Expected, Actual2);
+
+    }
+
+
+
+
 
 
 }

@@ -17,11 +17,22 @@ public class Infection {
 
     public int calculateInstructors(int day)
     {
-        int instructors=5;
-        int actual_infected=instructors*day;
-        return actual_infected;
 
+        if (day>7) {
+            int instructors = 8;
+            int actual_infected = instructors * day;
+            return actual_infected;
+        }
+
+        else
+        {
+            int instructors = 5;
+            int actual_infected1 =instructors*day;
+            return actual_infected1;
+        }
     }
+
+
 
 
 }
