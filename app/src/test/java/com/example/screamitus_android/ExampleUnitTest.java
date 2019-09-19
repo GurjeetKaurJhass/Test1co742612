@@ -38,7 +38,7 @@ public class ExampleUnitTest {
     {
         Infection n=new Infection();
         int Expected=64;
-        int Actual2=n.calculateInstructors(7);
+        int Actual2=n.calculateInstructors(8);
         assertEquals(Expected, Actual2);
 
     }
